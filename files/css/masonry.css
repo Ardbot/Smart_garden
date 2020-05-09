@@ -105,24 +105,23 @@ a {
 .frame {
     text-align: right;
     display: flex;
+    flex-wrap: wrap;
     align-items: stretch;
     justify-content: center;
     border: dashed 1px #ffffff;
+    margin-bottom:30px;
 }
-
-    .frame div {
-        width: 50%;
-        align-content: center;
-    }
 
 .block1 {
     text-align: center;
     margin: 2%;
+    width: 100%;
 }
 
 .block2 {
     text-align: center;
-    background:#ffffff;
+    background: #ffffff;
+     width: 100%;
 }
 
 
@@ -130,6 +129,10 @@ a {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .masonry {
         column-count: 2;
+    }
+
+    .block2 {
+        width: 100%;
     }
 }
 
@@ -145,5 +148,13 @@ a {
 
     .masonry {
         column-count: 4;
+    }
+
+    .block1 {
+        width: 30%;
+    }
+
+    .block2 {
+        width: 65%;
     }
 }
