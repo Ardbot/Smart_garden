@@ -109,7 +109,7 @@ a {
     align-items: stretch;
     justify-content: center;
     border: dashed 1px #ffffff;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .block1 {
@@ -121,9 +121,31 @@ a {
 .block2 {
     text-align: center;
     background: #ffffff;
-     width: 100%;
+    width: 100%;
 }
 
+/*Плитка*/
+.tile {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(134, 255, 133, 0.50);
+    text-align: center;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+    .tile div {
+        width: 19%;
+        /*height: 50px;*/
+        border: dashed 1px #ffffff;     
+        padding: 2px;
+        margin: 2px;
+    }
+
+.menu {
+background:rgba(150, 150, 150, 0.20);
+
+}
 
 /* Masonry on tablets */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {

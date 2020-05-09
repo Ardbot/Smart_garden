@@ -164,7 +164,7 @@ html {
 }
 
 .green-sea {
-  background: #16a085;
+  background: rgba(119, 255, 118, 0.25);
 }
 
 .button.green-sea:hover {
