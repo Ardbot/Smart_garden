@@ -1,0 +1,7 @@
+//Настройка подключения
+
+#define SECRET_SSID "name"		 //	Имя вашей WI-FI сети
+#define SECRET_PASS "12345678"	 //	Пароль от WI-FI сети
+
+#define SECRET_CH_ID 0000000	// ID канала
+#define SECRET_WRITE_APIKEY "E***********7"    // API ключ записи на ThingSpeak
