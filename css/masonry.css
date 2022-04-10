@@ -1,4 +1,5 @@
 /* Defaults */
+/*Что-то сломалось*/
 body {
     background: #282828;
     color: #ffffff;
@@ -70,6 +71,7 @@ a {
         margin-bottom: 15px;
         display: inline-block; /* Fix the misalignment of items */
         vertical-align: top; /* Keep the item on the very top */
+        text-align: center;
     }
 
         /* Masonry image effects */
@@ -110,19 +112,22 @@ a {
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: center;
-    border: dashed 1px #ffffff;
+    border: solid 1px #ffffff50;
     margin-bottom: 30px;
 }
 
 .block1 {
     text-align: center;
-    margin: 2%;
+/*    margin: 2%;*/
     width: 100%;
+    /*background: rgba(150, 150, 150, 0.20*/
+    background: #ffffff20
+
 }
 
 .block2 {
     text-align: center;
-    background: #ffffff;
+    background: #282828;
     width: 100%;
 }
 
@@ -174,7 +179,7 @@ a {
     }
 
     .masonry {
-        column-count: 4;
+        column-count: 3;
     }
 
     .block1 {
@@ -182,7 +187,7 @@ a {
     }
 
     .block2 {
-        width: 66%;
+        width: 70%;
     }
 
     .tile div {
